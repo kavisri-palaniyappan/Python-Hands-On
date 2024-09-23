@@ -1,0 +1,26 @@
+import sys
+from email.headerregistry import Address
+from wsgiref.simple_server import sys_version
+
+first_name=input("Enter Your First Name")
+print(first_name)
+second_name=input("Enter Your Second Name")
+print(second_name)
+mobile_no=int(input("Enter Your Mobile Number"))
+print(mobile_no)
+email_id=input("Enter Your Mail ID")
+print(email_id)
+date_of_birth=input("Enter Your Date_Of_Birth")
+print(date_of_birth)
+Age=int(input("Enetr your Age"))
+print(Age)
+Address=input("Enter your Address")
+print(Address)
+Pincode=int(input("Enter your pincode"))
+print(Pincode)
+mark_12=int(input("enter your 12th mark") )
+print(mark_12)
+degree_percentage=int(input("Enter your CGPA"))
+print(degree_percentage)
+print(sys_version)
+print(sys.version)
